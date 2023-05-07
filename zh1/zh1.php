@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>ZH1</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--STYLE hozzáadása-->
   </head>
   <body>
     <h1>Kotan Tamas K424V1</h1>
@@ -12,12 +12,12 @@
         include 'db.php';
           
         $conn=getDB();
-        $fizetes = $_GET['fizetes'];
-        $result = mysqli_query($conn, "SELECT id, name, salary FROM product_suppliers where salary>$fizetes");
+        $fizetes = $_GET['fizetes']; //url-ben megadott parameter kiszedese
+        $result = mysqli_query($conn, "SELECT id, name, salary FROM product_suppliers where salary>$fizetes"); //urlben kapott parameter szerinti szures
       ?>
 
-<?php if($fizetes>=100000) :?>
-        <table>
+<?php if($fizetes>=100000) :?>           
+        <table>               
             <thead>
                 <tr>
                     <th>id</th>
