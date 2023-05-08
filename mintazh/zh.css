@@ -1,0 +1,19 @@
+#nev_es_neptun{
+	color: #000066;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+table, th, td {
+	border: 1px solid;
+	text-align: center;
+}
+
+tbody tr td:nth-child(odd) {
+	background-color: #00FF00;
+}
+
+#hiba{
+	color: #FF0000;
+	font-style: italic;
+}
