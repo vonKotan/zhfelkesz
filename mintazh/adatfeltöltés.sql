@@ -1,0 +1,12 @@
+insert into Gondozo (nev , kor) values('Kiss Anna',28);
+insert into Gondozo (nev , kor) values('Közepes Béla',42);
+insert into Gondozo (nev , kor) values('Nagy Cecil',56);
+insert into Allat (nev , fajta) values('Meng','panda');
+insert into Allat (nev , fajta) values('Glória','víziló');
+insert into Allat (nev , fajta) values('Bálint','víziló');
+insert into Allat (nev , fajta) values('Theo','zsiráf');
+insert into Gondoz(Gondozo_id,Allat_id)values(1,1);
+insert into Gondoz(Gondozo_id,Allat_id)values(1,2);
+insert into Gondoz(Gondozo_id,Allat_id)values(2,3);
+insert into Gondoz(Gondozo_id,Allat_id)values(3,3);
+insert into Gondoz(Gondozo_id,Allat_id)values(1,4);

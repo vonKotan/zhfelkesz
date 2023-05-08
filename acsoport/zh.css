@@ -1,0 +1,27 @@
+#szemelyes{
+    size:large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+
+}
+h2{
+    font-weight: normal;
+}
+td:nth-child(odd){
+    background-color: yellow;
+} 
+table, th, td {
+    border: 1px solid black;
+
+  }
+.my-custom-class {
+    color:red;
+    margin-left  :75px;
+    
+
+}
+a{
+    color:red;
+}

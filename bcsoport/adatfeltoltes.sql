@@ -1,0 +1,11 @@
+insert into kisbolt (cim,terulet)values('Kő utca 3','200');
+insert into kisbolt (cim,terulet)values('Fa út 4/B','150');
+insert into kisbolt (cim,terulet)values('Fa út 224','300');
+insert into kisbolt (cim,terulet)values('Nagy tér 1','125');
+insert into elado (nev,fizetes,kisbolt_id)values('Kiss Anna',300000,1);
+insert into elado (nev,fizetes,kisbolt_id)values('Nagy Cecil',370000,1);
+insert into elado (nev,fizetes,kisbolt_id)values('Közepes Béla',350000,2);
+insert into arufeltolto (nev,fizetes,kisbolt_id)values('Nagy Dénes',255000,1);
+insert into arufeltolto (nev,fizetes,kisbolt_id)values('Nagy Erika',255000,2);
+insert into arufeltolto (nev,fizetes,kisbolt_id)values('Nagy Dénes',255000,3);
+insert into arufeltolto (nev,fizetes,kisbolt_id)values('Kiss János',255000,4);

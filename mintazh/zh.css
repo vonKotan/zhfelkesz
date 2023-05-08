@@ -1,19 +1,32 @@
-#nev_es_neptun{
-	color: #000066;
-	font-size: 40px;
-	font-weight: bold;
-}
+h1{
+    color:darkblue;
+    size:medium;
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
 
+
+}
+#warning{
+    color:red;
+    font-style: italic;
+    margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+table {
+    order-collapse: collapse;
+    text-align: center;
+
+      margin-right: auto;
+
+}
+td:nth-child(odd){
+    background-color: green
+} 
 table, th, td {
-	border: 1px solid;
-	text-align: center;
-}
+    border: 1px solid black;
 
-tbody tr td:nth-child(odd) {
-	background-color: #00FF00;
-}
-
-#hiba{
-	color: #FF0000;
-	font-style: italic;
-}
+  }
